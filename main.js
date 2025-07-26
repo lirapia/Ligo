@@ -303,11 +303,11 @@ function displayitems() {
                      <textarea placeholder="no name inserted" disabled style="color: green; border:none; id="${namesarray[l]}" background:none;resize:none">${namesarray[l]}</textarea>
                      </div>
                   <div class="editcontroler2" style="display:flex;justify-content:flex-end;"margin:0px;>
-                     <button class="editbutton2 item-namebtn"><img src="./resources/edit.png"style="width:50px; height:50px;padding:0px;"></button>
+                     <button class="editbutton2 item-namebtn"><img src="./resources /edit.png"style="width:50px; height:50px;padding:0px;"></button>
                      </div> 
    <div class = "updatecontroller2" >
-   <button class="savebtn2 item-namebtn"type="submit"  ><img src="./resources/save.png"style="width:50px; height:50px;padding:0px;"</button> <button class = "canclebtn2 item-namebtn"
-   type = "submit" > <img src="./resources/cancle.png"style="width:50px; height:50px;padding:0px;"</button> 
+   <button class="savebtn2 item-namebtn"type="submit"  ><img src="./resources /save.png"style="width:50px; height:50px;padding:0px;"</button> <button class = "canclebtn2 item-namebtn"
+   type = "submit" > <img src="./resources /cancle.png"style="width:50px; height:50px;padding:0px;"</button> 
    </div> 
      </div>` +
      `<div class="items" style="
@@ -318,25 +318,25 @@ function displayitems() {
                       <textarea style="padding:0;background-image:linear-gradient(to bottom right, white, white);border-style:solid;border-width:2px;border-color:green; resize: vertical;" id="${itemsarray[i].trim()+itemid[i]}" placeholder="no title inserted">${itemsarray[i]}</textarea>
                       </div>
                   <div class="editcontroler"style="display:flex;flex-direction: column;flex-wrap:wrap;justify-content:flex-end;">
-                       <button class="editbutton item-namebtn"><img src="./resources/edit.png"style="width:50px; height:50px;padding:0px;"></button>
-                       <button class="deletebutton item-namebtnhidden"><img src="./resources/trash.png"style="width:50px; height:50px;padding:0px;"</button>
+                       <button class="editbutton item-namebtn"><img src="./resources /edit.png"style="width:50px; height:50px;padding:0px;"></button>
+                       <button class="deletebutton item-namebtnhidden"><img src="./resources /trash.png"style="width:50px; height:50px;padding:0px;"</button>
                        </div>
                                    
                                      
                   <div class="updatecontroller" style="margin-right: 6px; display:none;flex-direction: column;flex-wrap:wrap;justify-content:flex-end; width:54px;">
-                        <button class="savebtn item-namebtn"type="submit"  ><img src="./resources/save.png"style="width:50px; height:50px;padding:0px;"</button>
-                        <button class="canclebtn item-namebtn"type="submit" ><img src="./resources/cancle.png"style="width:50px; height:50px;padding:0px;"></button>
+                        <button class="savebtn item-namebtn"type="submit"  ><img src="./resources /save.png"style="width:50px; height:50px;padding:0px;"</button>
+                        <button class="canclebtn item-namebtn"type="submit" ><img src="./resources /cancle.png"style="width:50px; height:50px;padding:0px;"></button>
                         
                         </div>
    
                    <div class="searchbuttons" style="display:flex;flex-direction:row;flex-wrap:wrap;margin-right:8px; width:50px;justify-content:flex-start;">              
                         <a target='_self' id="inappsearch" onclick="inappsearch()" href=""style="visibility:hidden;
-                        position: absolute;"><button type="submit" class="item-namebtn"><img src="./resources/inappsearch.png"style="width:50px; height:50px;padding:0px;"></button></a>
+                        position: absolute;"><button type="submit" class="item-namebtn"><img src="./resources /inappsearch.png"style="width:50px; height:50px;padding:0px;"></button></a>
                         <a target='blank' id="linking" onclick="searching()" href="" style="">
-                        <button type="submit" class="item-namebtn" ><img src="./resources/search.png"style="width50px; height:50px;padding:0px;"></button></a>    
+                        <button type="submit" class="item-namebtn" ><img src="./resources /search.png"style="width50px; height:50px;padding:0px;"></button></a>    
                         </div>
                   <div class="copydiv">
-                        <button class="copybtn item-namebtn"type="submit" onclick="copybtn()"><img src="./resources/copy.png"style="width:50px; height:50px;padding:0px;"</button>
+                        <button class="copybtn item-namebtn"type="submit" onclick="copybtn()"><img src="./resources /copy.png"style="width:50px; height:50px;padding:0px;"</button>
                         </div>               
                  </div>
                                      `
