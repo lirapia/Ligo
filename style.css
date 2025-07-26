@@ -7,6 +7,9 @@ body{
 .editbutton2{
   background-image: url('./resources /edit.png');
 }
+.sidebb{
+  background-image: url('./resources /option.png');
+}
 .item-namebtnhidden{
   visibility: hidden;
   margin: 2px;
