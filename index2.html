@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Items in Row with Explanations</title>
+  <style>
+    /* General styling for the container */
+    .container {
+      display: flex;
+      flex-direction: column;
+      gap: 20px; /* Space between rows */
+      margin: 20px;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Styling for each row */
+    .row {
+      display: flex;
+      align-items: center; /* Align items vertically */
+      gap: 15px; /* Space between item and explanation */
+    }
+
+    /* Styling for the item */
+    .item {
+      width: 50px;
+      height: 50px;
+      background-color: #4CAF50;
+      border-radius: 5px;
+      text-decoration: none;
+      
+    }
+
+    /* Styling for the explanation text */
+    .explanation {
+      font-size: 16px;
+      color: #333;
+    }
+    .back{
+      color: green;
+      display: flex;
+      justify-content: space-evenly;
+      margin: auto;
+      padding: auto;
+      text-decoration: none;
+    }
+    .backtext{
+      margin: 5px;
+      text-decoration: none;
+    }
+    button {
+      background: transparent;
+      border: 2px solid rgba(0, 255, 0, 0.6); /* Green border with transparency */
+      color: rgba(0, 255, 0, 0.8); /* Green text */
+      padding: 15px 30px;
+      font-size: 18px;
+      font-weight: bold;
+      text-transform: uppercase;
+      border-radius: 8px;
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+      transition: 0.3s ease;
+      box-shadow: 0 0 10px rgba(0, 255, 0, 0.5), 0 0 20px rgba(0, 255, 0, 0.4);
+    }
+
+    button:hover {
+      box-shadow: 0 0 20px rgba(0, 255, 0, 0.8), 0 0 40px rgba(0, 255, 0, 0.6), 0 0 60px rgba(0, 255, 0, 0.4);
+      color: rgba(0, 255, 0, 1);
+      border-color: rgba(0, 255, 0, 1);
+    }
+
+    button::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 255, 0, 0.2);
+      filter: blur(15px);
+      z-index: -1;
+      transition: opacity 0.3s ease;
+      opacity: 0;
+    }
+
+    button:hover::after {
+      opacity: 1;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="home">
+      <h2>The Ligo web app to store links and other text based information </h2>
+    </div>
+    <!-- Row 1 -->
+    <div class="row">
+      <img class="item" src="/resources /backup.png" alt=""style="background-color: #FF5722;">
+      <div class="explanation">Opens the tabs for extra functions in the software.</div>
+    </div>
+
+    <!-- Row 2 -->
+    <div class="row">
+      <img class="item" src="/resources /import.png" alt=""style="background-color: #FF5722;">
+      <div class="explanation"> Imports the links you stored in your device back into the Web app .</div>
+    </div>
+
+    <!-- Row 3 -->
+    <div class="row">
+      <h4 class="item" style='color: darkgreen; background-color:'>save</h4>
+      <div class="explanation"> Store the linkes saved in the your device.</div>
+    </div>
+        <div class="row">
+          <h4 class="item" style='color: white; background-color:'>inapp</h4>
+          <div class="explanation">Give extra functionality to the links saved.</div>
+        </div>
+        <div class="row"><button type="submit"> <a class="back"href="index.html"><h4 class="backtext">back</h4></a></button>
+         
+        </div>
+  </div>
+</body>
+</html>

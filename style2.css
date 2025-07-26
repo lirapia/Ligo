@@ -1,0 +1,43 @@
+body{
+  background-color: white;
+}
+.home{
+  width: 50%;
+  margin-left: auto;
+  margin-bottom: 0px;
+  position: absolute;
+  background-color: rgba(0, 128, 0, 0.5); /* Green with 50% opacity */
+  padding: 20px;
+  color: black;
+  color:darkgreen;
+}
+.container{
+  position: static;
+  width: 90%;
+  height: 90vh;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(0, 128, 0, 0.5); /* Green with 50% opacity */
+  padding: 20px;
+  color:darkgreen;
+  flex-wrap: wrap;
+}
+.components{
+  position: static;
+  align-items: stretch;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 128, 0, 0.5); /* Green with 50% opacity */
+  color:darkgreen;
+  flex-wrap: wrap;
+}
+.image{
+  position:relative ;
+  background-color: rgba(0, 128, 0, 0.5); /* Green with 50% opacity */
+  padding: 20px;
+  color: black;
+  width: 5%;
+  height: 5%;
+}
