@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="google-adsense-account" content="ca-pub-1033899504677097">
+
+  <title>Ligoquicklink</title>
+  
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="icon" href="./resources /Ligo_logo.jpg" title="Ligo" type="image/jpg" />
+</head>
+
+<body>
+  <div class="tarrayt">
+    
+  </div>
+  <button onclick="next()", id="nextbtn"  type="submit">Next</button>
+  <button id="previousbtn", onclick="previous()" type="submit">Previous</button>
+ 
+   <p id="greybackground"></p>
+  <img class="exampleimage" id="exampleimage1"src="./resources/example1.png" alt="example 1" />
+  <img class="exampleimage" id="exampleimage2"src="./resources/example2.png" alt="example 2" />
+  <img class="exampleimage" id="exampleimage3"src="./resources/example3.png" alt="example 3" />
+  <img class="exampleimage" id="exampleimage4"src="./resources/example4.png" alt="example 4" />
+  <img class="exampleimage" id="exampleimage5"src="./resources/example5.png" alt="example 5" />
+  <img class="exampleimage" id="exampleimage6"src="./resources/example6.png" alt="example 6" />
+  <img class="exampleimage" id="exampleimage7"src="./resources/example7.png" alt="example 7" />
+  
+  
+    <div class="sidebar"id="sidebarc">
+
+<div class="sidebar"   id="sidebar">
+  <div class="sbsegmt-a">
+      <button type="submit" class="sidebb"><a style="text-decoration: none;" href="index2.html"><h1 style="color: white">A</h1></a></button><h3>About</h3>
+       <button type="submit" class="sidebb"></button><h3>settings</h3>
+      
+  </div>
+
+            </div>
+</div>
+  
+  <main class="m">
+    <div class="saverTitle">
+      <h4 id="brand">LIGO</h4>
+      
+    </div>
+            <div class="theList">
+              <div class="insert">    <input type="text" placeholder="insert link name" id="name">
+             
+              <input type="text" placeholder="insert link " id="item">
+              
+              <input type="text" placeholder="insert message " id="content">
+              </div>
+
+              
+              <div class="functions">
+               
+              
+              <select id="connection">
+                <option value="text">Text</option>
+                <option value="website">Website</option>
+                <option value="e-mail">E-mail</option>
+                <option value="phone">Phone</option>
+                <option value="sMS" body=sky>SMS</option>
+              </select>
+               <button id="enterbtn" type="submit"><img src="./resources/enter.png" style="width:50px; height:50px;padding:0px;margin:0;"></button>
+               <button type="submit" class="showinapp">in app</button>
+               <button class="save" type="submit" ><img src="./resources/backup.png" style="width:30px; height:27px;padding:0px;margin:0;"></button>
+                </div>
+              </div>
+              
+
+           <div id="savedNames"></div>
+           <div id="savedLinks"></div>
+    
+<div class="saveoption">
+
+      <button type="submit" style="padding:0;"id="csearch"><img src="./resources/search.png"style="width:50px; height:50px;padding:0px;" onclick="csearch()" >search</button><br>
+      <input class="filename" placeholder="file name" type="text">
+      
+      <label for="txtfile" class="textfinput">Choose File</label>
+      <button type="submit" style="padding:0;"id="importbtn"><img src="./resources/import.png"style="width:50px; height:50px;padding:0px; " onclick="importbtn()" >import</button>
+      <span id="textfholder"></span>
+      <input id="txtfile" type="file" accept=".txt">
+     
+     
+      
+      <input type="text" id="searchBox" placeholder="Search..."><br>
+      <div id="results"></div><br>
+</button>
+<a class="backupbtn"href="">save</a>
+
+    </div>
+    <div id="alertb">  <h4 id="alertc"></h4> 
+      <button id="alertclose" type="submit">X</button>
+    </div>
+  </main>
+
+
+  <script src="main.js"></script>
+</body>
+</html>
