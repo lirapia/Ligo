@@ -1,6 +1,6 @@
 # Ligo
 LIGO web repository 
-This websit is a browsing companion that allows you to save links and text based files on the go as you browse.
+This website is a browsing companion that allows you to save text based links and text based files on the go as you browse.
 
           °•Functions•°
 Reduce the number of tabs you have opened and have them all in one place
